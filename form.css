@@ -1,7 +1,6 @@
 /*  Title: form.html styles
 	by: Cory Green
 	for: CSS selectors
-	class: Visual Frameworks, week 4
 */
 
 /* h1 styling */
@@ -39,7 +38,8 @@ p{
 
 /* body styling */
 body{
-	background: rgba(0,100,255,0.6);
+	background-image: url(pics/crowd.jpg);
+	background-position: center center;
 }
 
 /* legend styling */
