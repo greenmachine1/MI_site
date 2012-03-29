@@ -38,8 +38,9 @@ p{
 
 /* body styling */
 body{
-	background-image: url(pics/crowd.jpg);
+	/*background-image: url(pics/crowd.jpg);
 	background-position: center center;
+	*/
 }
 
 /* legend styling */
