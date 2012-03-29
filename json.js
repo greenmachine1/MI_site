@@ -2,7 +2,7 @@ var json = {
 	"bandInfo1": {
 		"fname": ["fname:", "Jon"],
 		"bname": ["Band Name:", "Slayer"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-12-10"],
 		"instrument1": ["instrument1:", "yes"],
@@ -20,7 +20,7 @@ var json = {
 	"bandInfo2": {
 		"fname": ["fname:", "Steve"],
 		"bname": ["Band Name:", "Metallica"],
-		"group": ["Genre:", "metal"],
+		"groups": ["Genre:", "metal"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-03-09"],
 		"instrument1": ["instrument1:", "yes"],
@@ -38,7 +38,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Cory"],
 		"bname": ["Band Name:", "Dream Theater"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-03-09"],
 		"instrument1": ["instrument1:", "yes"],
@@ -56,7 +56,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Rick"],
 		"bname": ["Band Name:", "Megadeth"],
-		"group": ["Genre:", "metal"],
+		"groups": ["Genre:", "metal"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-09-13"],
 		"instrument1": ["instrument1:", "yes"],
@@ -74,7 +74,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Carl"],
 		"bname": ["Band Name:", "DMX"],
-		"group": ["Genre:", "rap"],
+		"groups": ["Genre:", "rap"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-10-11"],
 		"instrument1": ["instrument1:", "yes"],
@@ -92,7 +92,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Sarah"],
 		"bname": ["Band Name:", "sunshine"],
-		"group": ["Genre:", "kids"],
+		"groups": ["Genre:", "kids"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-05-01"],
 		"instrument1": ["instrument1:", "yes"],
@@ -110,7 +110,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Fiona"],
 		"bname": ["Band Name:", "Chuck Stevens"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-11-02"],
 		"instrument1": ["instrument1:", "yes"],
@@ -128,7 +128,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Mike"],
 		"bname": ["Band Name:", "Dardanelle"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-04-27"],
 		"instrument1": ["instrument1:", "yes"],
@@ -146,7 +146,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Travis"],
 		"bname": ["Band Name:", "Fate 45"],
-		"group": ["Genre:", "metal"],
+		"groups": ["Genre:", "metal"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-01-19"],
 		"instrument1": ["instrument1:", "yes"],
@@ -164,7 +164,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Kenny"],
 		"bname": ["Band Name:", "Ass for cigarettes"],
-		"group": ["Genre:", "other"],
+		"groups": ["Genre:", "other"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-05-18"],
 		"instrument1": ["instrument1:", "yes"],
@@ -182,7 +182,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "David"],
 		"bname": ["Band Name:", "Depeche mode"],
-		"group": ["Genre:", "other"],
+		"groups": ["Genre:", "other"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2012-08-22"],
 		"instrument1": ["instrument1:", "yes"],
@@ -200,7 +200,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Kirk"],
 		"bname": ["Band Name:", "Ithica"],
-		"group": ["Genre:", "classical"],
+		"groups": ["Genre:", "classical"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-02-01"],
 		"instrument1": ["instrument1:", "yes"],
@@ -218,7 +218,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "James"],
 		"bname": ["Band Name:", "Little Rockers"],
-		"group": ["Genre:", "jazz"],
+		"groups": ["Genre:", "jazz"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-03-10"],
 		"instrument1": ["instrument1:", "yes"],
@@ -236,7 +236,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Lars"],
 		"bname": ["Band Name:", "Spanish fly"],
-		"group": ["Genre:", "other"],
+		"groups": ["Genre:", "other"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-05-12"],
 		"instrument1": ["instrument1:", "yes"],
@@ -254,7 +254,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Dylan"],
 		"bname": ["Band Name:", "Dragonia"],
-		"group": ["Genre:", "rap"],
+		"groups": ["Genre:", "rap"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-06-11"],
 		"instrument1": ["instrument1:", "yes"],
@@ -272,7 +272,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Melissa"],
 		"bname": ["Band Name:", "Masterful"],
-		"group": ["Genre:", "kids"],
+		"groups": ["Genre:", "kids"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-09-19"],
 		"instrument1": ["instrument1:", "yes"],
@@ -290,7 +290,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Charles"],
 		"bname": ["Band Name:", "Majesty"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-09-22"],
 		"instrument1": ["instrument1:", "yes"],
@@ -308,7 +308,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "James"],
 		"bname": ["Band Name:", "Rush"],
-		"group": ["Genre:", "rock"],
+		"groups": ["Genre:", "rock"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-10-01"],
 		"instrument1": ["instrument1:", "yes"],
@@ -326,7 +326,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Sohpia"],
 		"bname": ["Band Name:", "Dead walking"],
-		"group": ["Genre:", "Metal"],
+		"groups": ["Genre:", "Metal"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-10-15"],
 		"instrument1": ["instrument1:", "yes"],
@@ -344,7 +344,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Lindsey"],
 		"bname": ["Band Name:", "Van helsing"],
-		"group": ["Genre:", "country"],
+		"groups": ["Genre:", "country"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-10-23"],
 		"instrument1": ["instrument1:", "yes"],
@@ -362,7 +362,7 @@ var json = {
 	"bandInfo3": {
 		"fname": ["fname:", "Amanda"],
 		"bname": ["Band Name:", "Emotion"],
-		"group": ["Genre:", "classical"],
+		"groups": ["Genre:", "classical"],
 		"email": ["Email:", "your@email.com"],
 		"startdate": ["Date requesting:", "2013-11-09"],
 		"instrument1": ["instrument1:", "yes"],

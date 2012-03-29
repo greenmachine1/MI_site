@@ -29,6 +29,7 @@ window.addEventListener("DOMContentLoaded", function()
 			makeSelect.appendChild(makeOption);
 		}
 		selectLi.appendChild(makeSelect);
+		
 	}
 	// variable defaults
 	var bandType = ["--choose a genre--","rock", "metal", "country", "classical", "rap", 
