@@ -7,7 +7,7 @@
 //waiting until the DOM is ready
 window.addEventListener("DOMContentLoaded", function()
 {
-	function $(x)
+	function getE(x)
 	{
 		var theElement = document.getElementById(x);
 		return theElement;
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function()
 	function makeCatagory()
 	{
 		var formTag = document.getElementsByTagName("form"),
-			selectLi = $('select'),
+			selectLi = getE('select'),
 			makeSelect = document.createElement('select');
 			makeSelect.setAttribute("id", "groups");
 		for(var i = 0, j = bandType.length; i < j; i++)
@@ -50,80 +50,80 @@ window.addEventListener("DOMContentLoaded", function()
 		instrument8Value = "no",
 		instrument9Value = "no"; 
 		
-	var errMsg = $('errors');	
+	var errMsg = getE('errors');	
 		
 
 
 // find value of selected buttons
 function getCheckBoxValue()
 {
-	if($('guitar1').checked)
+	if(getE('guitar1').checked)
 	{
-		instrument1Value = $('guitar1').value;
+		instrument1Value = getE('guitar1').value;
 	}
 	else
 	{
 		instrument1Value = "No";
 	}
-	if($('guitar2').checked)
+	if(getE('guitar2').checked)
 	{
-		instrument2Value = $('guitar2').value;
+		instrument2Value = getE('guitar2').value;
 	}
 	else
 	{
 		instrument2Value = "No";
 	}
-	if($('bass').checked)
+	if(getE('bass').checked)
 	{
-		instrument3Value = $('bass').value;
+		instrument3Value = getE('bass').value;
 	}
 	else
 	{
 		instrument3Value = "No";
 	}
-	if($('drums').checked)
+	if(getE('drums').checked)
 	{
-		instrument4Value = $('drums').value;
+		instrument4Value = getE('drums').value;
 	}
 	else
 	{
 		instrument4Value = "No";
 	}
-	if($('vocalMain').checked)
+	if(getE('vocalMain').checked)
 	{
-		instrument5Value = $('vocalMain').value;
+		instrument5Value = getE('vocalMain').value;
 	}
 	else
 	{
 		instrument5Value = "No";
 	}
-	if($('backupVocals1').checked)
+	if(getE('backupVocals1').checked)
 	{
-		instrument6Value = $('backupVocals1').value;
+		instrument6Value = getE('backupVocals1').value;
 	}
 	else
 	{
 		instrument6Value = "No";
 	}
-	if($('backupVocals2').checked)
+	if(getE('backupVocals2').checked)
 	{
-		instrument7Value = $('backupVocals2').value;
+		instrument7Value = getE('backupVocals2').value;
 	}
 	else
 	{
 		instrument7Value = "No";
 	}
-	if($('backupVocals3').checked)
+	if(getE('backupVocals3').checked)
 	{
-		instrument8Value = $('backupVocals3').value;
+		instrument8Value = getE('backupVocals3').value;
 	}
 	else
 	{
 		instrument8Value = "No";
 	}
-	if($('other').checked)
+	if(getE('other').checked)
 	{
-		instrument9Value = $('other').value;
+		instrument9Value = getE('other').value;
 	}
 	else
 	{
@@ -137,17 +137,17 @@ function toggleControls(n)
 	switch(n)
 	{
 		case "on":
-			$('bandInfo').style.display = "none";
-			$('reset').style.display = "inline";
-			$('dispInfo').style.display = "none";
-			$('addNew').style.display = "inline";
+			getE('bandInfo').style.display = "none";
+			getE('reset').style.display = "inline";
+			getE('dispInfo').style.display = "none";
+			getE('addNew').style.display = "inline";
 			break;
 		case "off":
-			$('bandInfo').style.display = "block";
-			$('reset').style.display = "inline";
-			$('dispInfo').style.display = "inline";
-			$('addNew').style.display = "inline";
-			$('item').style.display = "inline";
+			getE('bandInfo').style.display = "block";
+			getE('reset').style.display = "inline";
+			getE('dispInfo').style.display = "inline";
+			getE('addNew').style.display = "inline";
+			getE('item').style.display = "inline";
 			break;
 		default:
 			return false;
@@ -172,11 +172,11 @@ function toggleControls(n)
 		// object properties contain array with the form label and input values
 		getCheckBoxValue();
 		var item 				= {};
-			item.fname 			= ["Your Name:", $('fname').value];
-			item.bname 			= ["Band Name:", $('bname').value];
-			item.email			= ["Email Address:", $('email').value];
-			item.groups 		= ["Genre:", $('groups').value];
-			item.startdate		= ["Date Requesting: ", $('startdate').value];
+			item.fname 			= ["Your Name:", getE('fname').value];
+			item.bname 			= ["Band Name:", getE('bname').value];
+			item.email			= ["Email Address:", getE('email').value];
+			item.groups 		= ["Genre:", getE('groups').value];
+			item.startdate		= ["Date Requesting: ", getE('startdate').value];
 			item.instrument1	= ["1 guitar", instrument1Value];
 			item.instrument2	= ["2 guitars", instrument2Value];
 			item.instrument3	= ["bass", instrument3Value];
@@ -187,8 +187,8 @@ function toggleControls(n)
 			item.instrument8	= ["3 backup vocals", instrument8Value];
 			item.instrument9	= ["Other Instrument(s)", instrument9Value];
 		
-			item.other1			= ["Other Info:", $('other1').value];
-			item.tickets		= ["Tickets Wanted", $('tickets').value];
+			item.other1			= ["Other Info:", getE('other1').value];
+			item.tickets		= ["Tickets Wanted", getE('tickets').value];
 		// save data into local storage: using stringify to convert our object to a string
 		localStorage.setItem(id, JSON.stringify(item));
 		alert("info saved!");
@@ -210,7 +210,7 @@ function toggleControls(n)
 		var makeList = document.createElement('ul');
 		makeDiv.appendChild(makeList);
 		document.body.appendChild(makeDiv);
-		$('item').style.display = "block";
+		getE('item').style.display = "block";
 		for(var i = 0, j = localStorage.length; i < j; i++)
 		{
 			var makeli = document.createElement('li');
@@ -294,92 +294,92 @@ function toggleControls(n)
 		toggleControls("off");
 		
 		// populate the form fields with the current localStorage values.
-		$('fname').value = item.fname[1];
-		$('bname').value = item.bname[1];
-		$('email').value = item.email[1];
-		$('groups').value = item.groups[1];
-		$('startdate').value = item.startdate[1];
-			if($('guitar1').checked)
+		getE('fname').value = item.fname[1];
+		getE('bname').value = item.bname[1];
+		getE('email').value = item.email[1];
+		getE('groups').value = item.groups[1];
+		getE('startdate').value = item.startdate[1];
+			if(getE('guitar1').checked)
 			{
-				instrument1Value = $('guitar1').value;
+				instrument1Value = getE('guitar1').value;
 			}
 			else
 			{
 				instrument1Value = "No";
 			}
-			if($('guitar2').checked)
+			if(getE('guitar2').checked)
 			{
-				instrument2Value = $('guitar2').value;
+				instrument2Value = getE('guitar2').value;
 			}
 			else
 			{
 				instrument2Value = "No";
 			}	
-			if($('bass').checked)
+			if(getE('bass').checked)
 			{
-				instrument3Value = $('bass').value;
+				instrument3Value = getE('bass').value;
 			}
 			else
 			{
 				instrument3Value = "No";
 			}
-			if($('drums').checked)
+			if(getE('drums').checked)
 			{
-				instrument4Value = $('drums').value;
+				instrument4Value = getE('drums').value;
 			}
 			else
 			{
 				instrument4Value = "No";
 			}
-			if($('vocalMain').checked)
+			if(getE('vocalMain').checked)
 			{
-				instrument5Value = $('vocalMain').value;
+				instrument5Value = getE('vocalMain').value;
 			}
 			else
 			{
 				instrument5Value = "No";
 			}
-			if($('backupVocals1').checked)
+			if(getE('backupVocals1').checked)
 			{
-				instrument6Value = $('backupVocals1').value;
+				instrument6Value = getE('backupVocals1').value;
 			}
 			else
 			{
 				instrument6Value = "No";
 			}
-			if($('backupVocals2').checked)
+			if(getE('backupVocals2').checked)
 			{
-				instrument7Value = $('backupVocals2').value;
+				instrument7Value = getE('backupVocals2').value;
 			}
 			else
 			{
 				instrument7Value = "No";
 			}
-			if($('backupVocals3').checked)
+			if(getE('backupVocals3').checked)
 			{
-				instrument8Value = $('backupVocals3').value;
+				instrument8Value = getE('backupVocals3').value;
 			}
 			else
 			{
 				instrument8Value = "No";
 			}
-			if($('other').checked)
+			if(getE('other').checked)
 			{
-				instrument9Value = $('other').value;
+				instrument9Value = getE('other').value;
 			}
 			else
 			{
 				instrument9Value = "No";
 			} 	
 		
-		$('other1').value = item.other1[1];
-		$('tickets').value = item.tickets[1];
+		getE('other1').value = item.other1[1];
+		getE('tickets').value = item.tickets[1];
 		
 		// remove the initial listener from the input save conctact
 		submit.removeEventListener("click", storeData);  // changed save to submit
 		// change submit button value to edit button
-		$('submit').value = "Edit Contact";
-		var editSubmit = $('submit');
+		getE('submit').value = "Edit Contact";
+		var editSubmit = getE('submit');
 		// save key value established in this function as a property of the edit submit event
 		// so we can use that value when we save the data we edited.
 		editSubmit.addEventListener("click", validate);
@@ -420,10 +420,10 @@ function toggleControls(n)
 	function validate(e)
 	{
 		// define the elements we want to check
-		var getfname = $('fname');
-		var getbname = $('bname');
-		var getemail = $('email');
-		var getgroups = $('groups');
+		var getfname = getE('fname');
+		var getbname = getE('bname');
+		var getemail = getE('email');
+		var getgroups = getE('groups');
 		
 		//reset error messages
 		errMsg.innerHTML = "";
@@ -460,7 +460,7 @@ function toggleControls(n)
 		}
 		
 		//Email validation
-		var regular = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+		var regular = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+getE/;
 		if(!(regular.exec(getemail.value)))
 		{
 			var emailError = "Please enter a valid email address.";
@@ -495,14 +495,14 @@ function toggleControls(n)
 	// set link and submit click events
 	
 	// shows data function
-	var dispInfo = $('dispInfo');
+	var dispInfo = getE('dispInfo');
 	dispInfo.addEventListener("click", getData);
 	
 	// set submit click events
-	var submit = $('submit');
+	var submit = getE('submit');
 	submit.addEventListener("click", validate);
 	
 	// clear function
-	var clear = $('reset');
+	var clear = getE('reset');
 	clear.addEventListener("click", clearLocal);
 });
