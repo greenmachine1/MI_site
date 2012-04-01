@@ -54,8 +54,20 @@ li{
 	font-style: italic;
 	font-size: 22px;
 }
-nav{
+/* target specific ID's use #then_ID */
+#nav{
 	color: white;
+	font-size: 18px;
+	text-align:	center;
+	}
+/* targetting the searchInput field */	
+#searchInput{
+	width: 300px;
+	}
+#addItem{
+	font-size: 20px;
+	margin: 20px; /* moves 20px to the right */
+	border: 2px solid white;
 	}
 div{
 	color: white;
