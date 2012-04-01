@@ -1,8 +1,7 @@
 // this is the main java script file for the web-app
 // Author: Cory Green
 // Date: 03/18/2012
-// project: Week 4 web-App
-// updated for week 34starting on march 18th, 2012
+// project: Mobile interfaces
 
 //waiting until the DOM is ready
 window.addEventListener("DOMContentLoaded", function()
