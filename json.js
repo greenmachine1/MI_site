@@ -53,7 +53,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","13"]
 	},
-	"bandInfo3": {
+	"bandInfo4": {
 		"fname": ["fname:", "Rick"],
 		"bname": ["Band Name:", "Megadeth"],
 		"groups": ["Genre:", "metal"],
@@ -71,7 +71,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","14"]
 	},
-	"bandInfo3": {
+	"bandInfo5": {
 		"fname": ["fname:", "Carl"],
 		"bname": ["Band Name:", "DMX"],
 		"groups": ["Genre:", "rap"],
@@ -89,7 +89,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","1"]
 	},
-	"bandInfo3": {
+	"bandInfo6": {
 		"fname": ["fname:", "Sarah"],
 		"bname": ["Band Name:", "sunshine"],
 		"groups": ["Genre:", "kids"],
@@ -107,7 +107,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","50"]
 	},
-	"bandInfo3": {
+	"bandInfo7": {
 		"fname": ["fname:", "Fiona"],
 		"bname": ["Band Name:", "Chuck Stevens"],
 		"groups": ["Genre:", "rock"],
@@ -125,7 +125,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","10"]
 	},
-	"bandInfo3": {
+	"bandInfo8": {
 		"fname": ["fname:", "Mike"],
 		"bname": ["Band Name:", "Dardanelle"],
 		"groups": ["Genre:", "rock"],
@@ -143,7 +143,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","50"]
 	},
-	"bandInfo3": {
+	"bandInfo9": {
 		"fname": ["fname:", "Travis"],
 		"bname": ["Band Name:", "Fate 45"],
 		"groups": ["Genre:", "metal"],
@@ -161,7 +161,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","45"]
 	},
-	"bandInfo3": {
+	"bandInfo10": {
 		"fname": ["fname:", "Kenny"],
 		"bname": ["Band Name:", "Ass for cigarettes"],
 		"groups": ["Genre:", "other"],
@@ -179,7 +179,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","25"]
 	},
-	"bandInfo3": {
+	"bandInfo11": {
 		"fname": ["fname:", "David"],
 		"bname": ["Band Name:", "Depeche mode"],
 		"groups": ["Genre:", "other"],
@@ -197,7 +197,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","45"]
 	},
-	"bandInfo3": {
+	"bandInfo12": {
 		"fname": ["fname:", "Kirk"],
 		"bname": ["Band Name:", "Ithica"],
 		"groups": ["Genre:", "classical"],
@@ -215,7 +215,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","30"]
 	},
-	"bandInfo3": {
+	"bandInfo13": {
 		"fname": ["fname:", "James"],
 		"bname": ["Band Name:", "Little Rockers"],
 		"groups": ["Genre:", "jazz"],
@@ -233,7 +233,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","35"]
 	},
-	"bandInfo3": {
+	"bandInfo14": {
 		"fname": ["fname:", "Lars"],
 		"bname": ["Band Name:", "Spanish fly"],
 		"groups": ["Genre:", "other"],
@@ -251,7 +251,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","23"]
 	},
-	"bandInfo3": {
+	"bandInfo15": {
 		"fname": ["fname:", "Dylan"],
 		"bname": ["Band Name:", "Dragonia"],
 		"groups": ["Genre:", "rap"],
@@ -269,7 +269,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","34"]
 	},
-	"bandInfo3": {
+	"bandInfo16": {
 		"fname": ["fname:", "Melissa"],
 		"bname": ["Band Name:", "Masterful"],
 		"groups": ["Genre:", "kids"],
@@ -287,7 +287,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","12"]
 	},
-	"bandInfo3": {
+	"bandInfo17": {
 		"fname": ["fname:", "Charles"],
 		"bname": ["Band Name:", "Majesty"],
 		"groups": ["Genre:", "rock"],
@@ -305,7 +305,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","34"]
 	},
-	"bandInfo3": {
+	"bandInfo18": {
 		"fname": ["fname:", "James"],
 		"bname": ["Band Name:", "Rush"],
 		"groups": ["Genre:", "rock"],
@@ -323,7 +323,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","50"]
 	},
-	"bandInfo3": {
+	"bandInfo19": {
 		"fname": ["fname:", "Sohpia"],
 		"bname": ["Band Name:", "Dead walking"],
 		"groups": ["Genre:", "Metal"],
@@ -341,7 +341,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","40"]
 	},
-	"bandInfo3": {
+	"bandInfo20": {
 		"fname": ["fname:", "Lindsey"],
 		"bname": ["Band Name:", "Van helsing"],
 		"groups": ["Genre:", "country"],
@@ -359,7 +359,7 @@ var json = {
 		"other1": ["Other info:", "None"],
 		"tickets": ["Amount of tickets needed:","20"]
 	},
-	"bandInfo3": {
+	"bandInfo21": {
 		"fname": ["fname:", "Amanda"],
 		"bname": ["Band Name:", "Emotion"],
 		"groups": ["Genre:", "classical"],
