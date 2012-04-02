@@ -57,20 +57,30 @@ li{
 /* target specific ID's use #then_ID */
 #nav{
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 	text-align:	center;
+	border: 2px solid white;
+	background: grey;
 	}
 /* targetting the searchInput field */	
 #searchInput{
-	width: 300px;
+	width: 280px;
 	}
+/* Additems link CSS */
 #addItem{
-	font-size: 20px;
-	margin: 20px; /* moves 20px to the right */
+	font-size: 16px;
+	margin: 17px; /* moves 20px to the right */
+	padding: 11px;
 	border: 2px solid white;
+	background: grey;
 	}
 div{
 	color: white;
-	font-size: 22px;
+	font-size: 22px;s
+}
+/* main pic CSS */
+#mainPic{
+	width: 300px;
+	height: 200px;
 }
 
