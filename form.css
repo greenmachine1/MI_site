@@ -6,10 +6,11 @@
 /* h1 styling */
 h1{
 	margin: 2px 5px 5px 2px;		/*20px on top, 10px right, 5px bottom, 10px left */
-	border: 5px solid white;
+	border: 5px solid #979da1;
+	border-radius: 5px;
 	padding: 10px;
-	background: #000452;
-	width: 90%; 
+	background: #6e7b82;
+	width: 270px; 
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 20px;
@@ -26,16 +27,7 @@ h2{
 	text-align: left;
 }
 
-/* paragraph styling */
-p{
-	color: white;
-	font-style: italic;
-	font-family: Arial; /*changes font face (also when a font is multiple words, use "" ("Times new Roman")) */
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 24px; /* distance between each line */
-	text-align: left;  /*aligns text */
-}
+ 
 
 /* body styling */
 body{
@@ -48,12 +40,7 @@ legend{
 	color: #000000;
 }
 
-/* li styling */
-li{
-	color: white;
-	font-style: italic;
-	font-size: 22px;
-}
+
 /* target specific ID's use #then_ID */
 #nav{
 	color: white;
@@ -71,9 +58,11 @@ li{
 	}
 /* Additems link CSS */
 #addItem{
-	font-size: 20px;
+	font-size: 18px;
+	text-align: center;
 	margin-left: 0px;
 	margin-top: 0px;
+	margin-right: 0px;
 	padding: 5px;
 	border: 5px solid #979da1;
 	border-radius: 5px;
@@ -88,5 +77,11 @@ div{
 #mainPic{
 	width: 300px;
 	height: 200px;
+}
+#general{
+	color: white;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
 }
 
