@@ -26,9 +26,6 @@ h2{
 	color: #FFFFFF;
 	text-align: left;
 }
-
- 
-
 /* body styling */
 body{
 	background-color: black;
@@ -50,15 +47,15 @@ legend{
 	background: #6e7b82;
 	/* rounded off my corners of my boxes */
 	border-radius: 5px;
-	}
+}
 /* targetting the searchInput field */	
 #searchInput{
 	width: 250px;
 	height: 20px
-	}
+}
 /* Additems link CSS */
 #addItem{
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -67,8 +64,8 @@ legend{
 	border: 5px solid #979da1;
 	border-radius: 5px;
 	background: #6e7b82;
-	padding-right: 45px;
-	}
+	padding-right: 71px;
+}
 div{
 	color: white;
 	font-size: 22px;s
