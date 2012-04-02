@@ -459,7 +459,9 @@ function toggleControls(n)
 		}
 		
 		//Email validation
-		var regular = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+getE/;
+		//when I replaced all $ with getE, it changed the end $ to getE and 
+		//destroyed the programs ability to save!
+		var regular = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 		if(!(regular.exec(getemail.value)))
 		{
 			var emailError = "Please enter a valid email address.";

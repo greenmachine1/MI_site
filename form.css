@@ -61,6 +61,7 @@ li{
 	text-align:	center;
 	border: 5px solid #979da1;
 	background: #6e7b82;
+	/* rounded off my corners of my boxes */
 	border-radius: 5px;
 	}
 /* targetting the searchInput field */	
