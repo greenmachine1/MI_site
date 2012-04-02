@@ -26,9 +26,10 @@ h2{
 	color: #FFFFFF;
 	text-align: left;
 }
+
 /* body styling */
 body{
-	background-color: black;
+	background-color: #1f81b7;
 }
 
 /* legend styling */
@@ -43,42 +44,50 @@ legend{
 	color: white;
 	font-size: 20px;
 	text-align:	center;
-	border: 5px solid #979da1;
-	background: #6e7b82;
-	/* rounded off my corners of my boxes */
+	border: 1px solid black;
+	background: #1c98dc;
 	border-radius: 5px;
 }
+
 /* targetting the searchInput field */	
 #searchInput{
 	width: 250px;
 	height: 20px
 }
-/* Additems link CSS */
-#addItem{
+#article{
+	color: white;
 	font-size: 20px;
-	text-align: center;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	padding: 5px;
-	border: 5px solid #979da1;
+	font-weight: bold;
+	text-align:	center;
+	width: 302px;
+	border: 1px solid black;
+	margin-top: 5px;
+	background: #1c98dc;
 	border-radius: 5px;
-	background: #6e7b82;
-	padding-right: 71px;
 }
+
 div{
 	color: white;
 	font-size: 22px;s
 }
+
 /* main pic CSS */
 #mainPic{
-	width: 300px;
+	width: 304px;
 	height: 200px;
+	border-radius: 5px;
 }
+
 #general{
 	color: white;
 	font-size: 20px;
 	margin-left: 0px;
 	margin-top: 0px;
+}
+
+p{
+	padding-top: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
