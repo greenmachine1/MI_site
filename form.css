@@ -59,20 +59,22 @@ li{
 	color: white;
 	font-size: 20px;
 	text-align:	center;
-	border: 2px solid white;
-	background: grey;
+	border: 5px solid #979da1;
+	background: #6e7b82;
 	}
 /* targetting the searchInput field */	
 #searchInput{
-	width: 280px;
+	width: 250px;
 	}
 /* Additems link CSS */
 #addItem{
-	font-size: 16px;
-	margin: 17px; /* moves 20px to the right */
-	padding: 11px;
-	border: 2px solid white;
-	background: grey;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 5px;
+	border: 5px solid #979da1;
+	background: #6e7b82;
+	padding-right: 45px;
 	}
 div{
 	color: white;
