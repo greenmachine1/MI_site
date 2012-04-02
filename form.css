@@ -65,6 +65,7 @@ li{
 /* targetting the searchInput field */	
 #searchInput{
 	width: 250px;
+	height: 20px
 	}
 /* Additems link CSS */
 #addItem{
