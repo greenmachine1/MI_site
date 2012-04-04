@@ -1,39 +1,125 @@
-<!DOCTYPE html>
-<html>
-	<!-- Cory Green, mobile site  -->
-	<!-- start of header info -->
-	<head>
-		<!-- declaring meta tags -->
-		<meta charset="utf-8" />
-		<meta name="description" content="Gig making" />
-		<meta name="keywords" content="music, gigs, venue, musicians, bands" />
-		<!-- allows the search engine robots to index the page-->
-		<meta name="robots" content="index, follow" />
-		<!--allows content to be sized correctly on iphone display -->
-		<meta name="viewport" content="user-scalable=no, width=device-width" />
-		<!-- document title -->
-		<title>Welcome to Gigbag!</title>
-		<link href="form.css" rel="stylesheet" />
+
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<!-- Jquery mobile version of my site! -->
+	
+	<title>Gig.Bag</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/stylesheet.css" />
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="modernizr.custom.min.js"></script>
+
+</head>
+<body>
+
+	<!-- My Page div -->
+	<div data-role="page" id="home">
 		
-	</head>
-	<!-- body -->
-	<body>
-		<img src="pics/crowd1.png" atl="crowd shot" id="mainPic"/>
-		<div id="nav">
-		<!-- changed the input field size -->
-			<label for="searchInput">Search for Upcoming Shows</label><br>
-			<input type="text" id="searchInput"/>
+		<!-- my header div -->
+		<div data-role="header" data-position="fixed">
+			<h1>Gig.Bag</h1>
 		</div>
-		<div id="article">
-			<!-- link to additem.html page-->
-			<p><a href="additem.html" id="addItem">RESERVE A GIG</a></p><br>
-			<p><a href="bookies.html" id="bookies">BOOKIES SIGN IN</a></p><br>
-			<p><a href="localBands.html" id="localBands">LOCAL BANDS</a></p>
-		</div>	
-	</body>
-	<!-- links to my .js files -->
-	<script src="json.js"></script>
-	<script src="main.js"></script>
+		
+		<!-- my content div -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li data-role="list-divider">First thingy</li>
+				<li>
+					<!-- adding a link to my create page-->
+					<a href="additem.html">
+						<h3>Create your gig</h3>
+						<p>Start here!</p>
+					</a>
+				</li>
+				<li data-role="list-divider">Secondary thingy</li>	
+				<li>
+					<a href="localBands.html">
+						<h3>Local bands</h3>
+						<p>Local band listings!</p>
+					</a>
+				</li>	
+				<li data-role="list-divider">Third thingy</li>	
+				<li>
+					<a href="Bookies.html">
+						<h3>Bookies</h3>
+						<p>Sign in here if your a Bookie!</p>
+					</a>
+				</li>	
+			</ul>	
+		</div>
+		<!-- my footer div -->
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#create" data-icon="gear">Favorite</a></li>
+					<li><a href="#change" data-icon="arrow-u">Change</a></li>
+					<li><a href="#search" data-icon="arrow-d">Search</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+		<!-- My Page div with a link to my create page and adds a back button-->
+		<!-- using the id to link to different pages and adds back button functionality-->
+	<div data-role="page" id="create" data-add-back-btn="true">
+		
+		<!-- my header div -->
+		<div data-role="header" data-position="fixed">
+			<h1>Create a gig</h1>
+		</div>
+		
+		<!-- my content div -->
+		<!-- listview adds a jquery mobile stylized view to my list items-->
+		<!-- added collapsable content -->
+		<div data-role="content">
+		<!-- makes it so only one item can be open at a time, one single interface set-->
+			<dive data-role="collapsible-set">
+			<!--data theme specifies the actual coloring of each element-->
+				<div data-role="collapsible" data-collapsed="false" data-theme="a">
+					<h3>Toothless Timmy</h3>
+					<p>Be careful, hell bite you to death</p>
+				</div>
+			
+				<div data-role="collapsible" data-collapsed="true" data-theme="a">
+					<h3>Wooden leged willy</h3>
+					<p>hobble on over!</p>
+				</div>
+			</div>	
+		</div>
+		
+		<!-- my footer div -->
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#create" data-icon="gear">Favorite</a></li>
+					<li><a href="#change" data-icon="arrow-u">Change</a></li>
+					<li><a href="#search" data-icon="arrow-d">Search</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
 </html>
-
-
