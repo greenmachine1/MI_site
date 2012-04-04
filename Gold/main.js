@@ -503,6 +503,7 @@ function toggleControls(n)
 	var submit = getE('submit');
 	submit.addEventListener("click", validate);
 	
+	
 	// clear function
 	var clear = getE('reset');
 	clear.addEventListener("click", clearLocal);
