@@ -31,45 +31,33 @@
 	<div data-role="page" id="home">
 		
 		<!-- my header div -->
-		<div data-role="header" data-position="fixed">
-			<h1>Gig.Bag</h1>
-		</div>
 		<!-- my content div -->
 		<div data-role="content">
 			<img src="pics/crowd1.png" width="290px" height="40%">
 		</div>	
-		<div>
-			<ul data-role="listview">
-				<li data-role="list-divider">First thingy</li>
-				<li>
-					<!-- adding a link to my create page-->
-					<a href="additem.html" data-ajax="false">
-						<h3>Create your gig</h3>
-						<p>Start here!</p>
-					</a>
-				</li>
-				<li data-role="list-divider">Secondary thingy</li>	
-				<li>
-					<a href="localBands.html">
-						<h3>Local bands</h3>
-						<p>Local band listings!</p>
-					</a>
-				</li>	
-				<li data-role="list-divider">Third thingy</li>	
-				<li>
-					<a href="Bookies.html">
-						<h3>Bookies</h3>
-						<p>Sign in here if your a Bookie!</p>
-					</a>
-				</li>	
-			</ul><!--listview-->
+		<div data-role="collapsible">
+			<h3>Create a gig!</h3>
+			<p>Create a gig here and send in to the Venue for review</p>
+			<a href="additem.html" data-ajax="false" data-role="button">Create a gig</a>
 		</div>
+		<div data-role="collapsible">
+			<h3>See what Bands are in your area!</h3>
+			<p>Locate local bands in your area with this Band search - still under construction - </p>
+			<a href="localBands.html" data-role="button">Search for bands!</a>
+		</div>
+		<div data-role="collapsible">
+			<h3>Bookies sign in here!</h3>
+			<p>Sign in here if your a bookie - still under construction - </p>
+			<a href="bookies.html" data-role="button">Sign in here</a>
+		</div>
+		
+		
 		<!-- my footer div -->
 		<div data-role="footer" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
 					<li><a href="index.html"data-theme="b">Home</a></li>
-					<li><a href="additem.html" data-ajax="false" data-theme="b">Create</a></li>
+					<li><a href="additem.html" data-theme="b">Create</a></li>
 					<li><a href="localBands.html"data-theme="b">Local</a></li>
 					<li><a href="bookies.html"data-theme="b">Bookies</a></li>
 				</ul>	

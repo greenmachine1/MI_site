@@ -33,11 +33,7 @@ window.addEventListener("DOMContentLoaded", function()
 	// variable defaults
 	var bandType = ["--choose a genre--","rock", "metal", "country", "classical", "rap", 
 					"kids", "jazz", "other"];
-	/*var instrument = ["guitar1", "guitar2", "bass", "drums", "vocalMain", "backupVocals1",
-					  "backupVocals2", "backupVocals3", "other"];
-	var instrumentValue = ["instrument1Value", "instrument2Value", "instrument3Value",
-						   "instrument4Value", "instrument5Value", "instrument6Value",
-						   "instrument7Value", "instrument8Value", "instrument9Value"]; */
+	
 												
 	var	instrument1Value = "no",
 		instrument2Value = "no",
