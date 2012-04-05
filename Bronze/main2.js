@@ -236,7 +236,7 @@ function toggleControls(n)
 		var imageLi = document.createElement('li');
 		makeSubList.appendChild(imageLi);
 		var newImg = document.createElement('img');
-		var setSrc = newImg.setAttribute("src", "pics/"+ catName + ".png");
+		var setSrc = newImg.setAttribute("src", "pics2/"+ catName + ".png");
 		imageLi.appendChild(newImg);
 	}
 	
