@@ -30,28 +30,49 @@
 	<!-- My Page div -->
 	<div data-role="page" id="home">
 	
-	<div>
-		<img src="pics2/crowd1.png" width="320" height="200">
-	</div>	
-		<div data-role="content">
-			<div data-role="controlgroup">	
-				<a href="additem2.html" data-ajax="false" data-role="button" data-icon="plus" data-theme="b">Add a gig!</a>
-				<a href="localBands2.html" data-role="button" data-icon="search" data-theme="b">Check out local bands!</a>
-				<a href="bookies2.html" data-role="button" data-icon="gear" data-theme="b">Bookies sign in here!</a>
-			</div><!-- control group-->	
-		</div><!--content-->
-	
+		<div>
+			<img src="pics2/crowd1.png" width="320" height="200">
+		</div><!--Main page pic-->	
+		
+			<div data-role="collapsible-set">
+			
+				<div data-role="collapsible" data-theme="a" data-iconpos="top">
+					<h3>Create a gig!</h3>
+					<a href="additem2.html" data-ajax="false">Book your next gig here!</a>
+				</div><!--collapsible for create gig-->
+			
+				<div data-role="collapsible" data-theme="a">
+					<h3>Search for local Bands here!</h3>
+						<!--<label for="search-basic">Search here by Genre</input>-->
+						<!--<input type="search" name="search" id="search-basic" value="" data-theme="d" />-->
+					<ul data-role="listview" data-theme="a" data-filter="true" data-filter-placeholder="Enter in a genre">
+						<li><img src="pics2/classical.png">Classical</li>
+						<li><img src="pics2/country.png">Country</li>
+						<li><img src="pics2/jazz.png">Jazz</li>
+						<li><img src="pics2/kids.png">Kids</li>
+						<li><img src="pics2/metal.png">Metal</li>
+						<li><img src="pics2/other.png">Other</li>
+						<li><img src="pics2/rap.png">Rap</li>
+						<li><img src="pics2/rock.png">Rock</li>
+					</ul>
+				</div><!--collapsible for Search gig-->
+				
+				<div data-role="collapsible" data-theme="a">
+					<h3>Bookies sign in here!</h3>
+					<p>Bookies sign in</p> 
+				</div><!--collapsible for Bookies-->
+			</div>	
 			<!-- my footer div -->
-			<div data-role="footer" data-position="fixed">
-				<div data-role="navbar">
-					<ul>
-						<li><a href="index2.html"data-theme="b" data-icon="home">Home</a></li>
-						<li><a href="additem2.html" data-theme="b" data-icon="plus">Create</a></li>
-						<li><a href="localBands2.html"data-theme="b" data-icon="search">Local</a></li>
-						<li><a href="bookies2.html"data-theme="b" data-icon="gear">Bookies</a></li>
-					</ul>	
-				</div><!--navbar-->
-			</div><!--footer-->
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="index2.html"data-theme="b" data-icon="home">Home</a></li>
+					<li><a href="additem2.html" data-ajax="false" data-theme="b" data-icon="plus">Create</a></li>
+					<li><a href="localBands2.html"data-theme="b" data-icon="search">Local</a></li>
+					<li><a href="bookies2.html"data-theme="b" data-icon="gear">Bookies</a></li>
+				</ul>	
+			</div><!--navbar-->
+		</div><!--footer-->
 		
 		<!-- JavaScript under here -->
 		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
